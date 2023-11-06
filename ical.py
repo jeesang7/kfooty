@@ -7,6 +7,7 @@ def get_icalendar():
     cal = Calendar()
     cal.add("prodid", "-//kfooty//")
     cal.add("version", "2.0")
+    cal.add("X-WR-CALNAME", "kfooty")
 
     date = "2023-11-05T15:30:00Z"
     dt = datetime.strptime(date, "%Y-%m-%dT%H:%M:%SZ")

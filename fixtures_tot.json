@@ -1,0 +1,1221 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "to": "2024-07-31",
+    "from": "2023-11-08",
+    "season": "2023",
+    "timezone": "Asia/Seoul",
+    "team": "47"
+  },
+  "errors": [],
+  "results": 27,
+  "paging": { "current": 1, "total": 1 },
+  "response": [
+    {
+      "fixture": {
+        "id": 1035156,
+        "referee": "T. Robinson",
+        "timezone": "Asia/Seoul",
+        "date": "2023-11-11T21:30:00Z",
+        "timestamp": 1699705800,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 600,
+          "name": "Molineux Stadium",
+          "city": "Wolverhampton, West Midlands"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 12"
+      },
+      "teams": {
+        "home": {
+          "id": 39,
+          "name": "Wolves",
+          "logo": "https://media-4.api-sports.io/football/teams/39.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1035303,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2023-11-26T23:00:00Z",
+        "timestamp": 1701007200,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 593,
+          "name": "Tottenham Hotspur Stadium",
+          "city": "London"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 13"
+      },
+      "teams": {
+        "home": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 66,
+          "name": "Aston Villa",
+          "logo": "https://media-4.api-sports.io/football/teams/66.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1035310,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2023-12-04T01:30:00Z",
+        "timestamp": 1701621000,
+        "periods": { "first": "", "second": "" },
+        "venue": { "id": 555, "name": "Etihad Stadium", "city": "Manchester" },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 14"
+      },
+      "teams": {
+        "home": {
+          "id": 50,
+          "name": "Manchester City",
+          "logo": "https://media-4.api-sports.io/football/teams/50.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1035320,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2023-12-08T05:15:00Z",
+        "timestamp": 1701980100,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 593,
+          "name": "Tottenham Hotspur Stadium",
+          "city": "London"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 15"
+      },
+      "teams": {
+        "home": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 48,
+          "name": "West Ham",
+          "logo": "https://media-4.api-sports.io/football/teams/48.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1035332,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2023-12-11T01:30:00Z",
+        "timestamp": 1702225800,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 593,
+          "name": "Tottenham Hotspur Stadium",
+          "city": "London"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 16"
+      },
+      "teams": {
+        "home": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media-4.api-sports.io/football/teams/34.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1035342,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2023-12-16T05:00:00Z",
+        "timestamp": 1702670400,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 566,
+          "name": "The City Ground",
+          "city": "Nottingham, Nottinghamshire"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 17"
+      },
+      "teams": {
+        "home": {
+          "id": 65,
+          "name": "Nottingham Forest",
+          "logo": "https://media-4.api-sports.io/football/teams/65.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1035351,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2023-12-24T00:00:00Z",
+        "timestamp": 1703343600,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 593,
+          "name": "Tottenham Hotspur Stadium",
+          "city": "London"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 18"
+      },
+      "teams": {
+        "home": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 45,
+          "name": "Everton",
+          "logo": "https://media-4.api-sports.io/football/teams/45.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1035357,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2023-12-29T04:30:00Z",
+        "timestamp": 1703791800,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 508,
+          "name": "The American Express Community Stadium",
+          "city": "Falmer, East Sussex"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 19"
+      },
+      "teams": {
+        "home": {
+          "id": 51,
+          "name": "Brighton",
+          "logo": "https://media-4.api-sports.io/football/teams/51.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1035371,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2023-12-31T23:00:00Z",
+        "timestamp": 1704031200,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 593,
+          "name": "Tottenham Hotspur Stadium",
+          "city": "London"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 20"
+      },
+      "teams": {
+        "home": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 35,
+          "name": "Bournemouth",
+          "logo": "https://media-4.api-sports.io/football/teams/35.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1035381,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-01-15T01:30:00Z",
+        "timestamp": 1705249800,
+        "periods": { "first": "", "second": "" },
+        "venue": { "id": 556, "name": "Old Trafford", "city": "Manchester" },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 21"
+      },
+      "teams": {
+        "home": {
+          "id": 33,
+          "name": "Manchester United",
+          "logo": "https://media-4.api-sports.io/football/teams/33.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1035388,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-01-31T04:45:00Z",
+        "timestamp": 1706643900,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 593,
+          "name": "Tottenham Hotspur Stadium",
+          "city": "London"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 22"
+      },
+      "teams": {
+        "home": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 55,
+          "name": "Brentford",
+          "logo": "https://media-4.api-sports.io/football/teams/55.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1035400,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-02-04T00:00:00Z",
+        "timestamp": 1706972400,
+        "periods": { "first": "", "second": "" },
+        "venue": { "id": 8560, "name": "Goodison Park", "city": "Liverpool" },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 23"
+      },
+      "teams": {
+        "home": {
+          "id": 45,
+          "name": "Everton",
+          "logo": "https://media-4.api-sports.io/football/teams/45.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1035411,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-02-11T00:00:00Z",
+        "timestamp": 1707577200,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 593,
+          "name": "Tottenham Hotspur Stadium",
+          "city": "London"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 24"
+      },
+      "teams": {
+        "home": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 51,
+          "name": "Brighton",
+          "logo": "https://media-4.api-sports.io/football/teams/51.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1035423,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-02-18T00:00:00Z",
+        "timestamp": 1708182000,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 593,
+          "name": "Tottenham Hotspur Stadium",
+          "city": "London"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 25"
+      },
+      "teams": {
+        "home": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 39,
+          "name": "Wolves",
+          "logo": "https://media-4.api-sports.io/football/teams/39.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1035428,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-02-25T00:00:00Z",
+        "timestamp": 1708786800,
+        "periods": { "first": "", "second": "" },
+        "venue": { "id": 519, "name": "Stamford Bridge", "city": "London" },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 26"
+      },
+      "teams": {
+        "home": {
+          "id": 49,
+          "name": "Chelsea",
+          "logo": "https://media-4.api-sports.io/football/teams/49.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1035443,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-03-03T00:00:00Z",
+        "timestamp": 1709391600,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 593,
+          "name": "Tottenham Hotspur Stadium",
+          "city": "London"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 27"
+      },
+      "teams": {
+        "home": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 52,
+          "name": "Crystal Palace",
+          "logo": "https://media-4.api-sports.io/football/teams/52.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1035446,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-03-10T00:00:00Z",
+        "timestamp": 1709996400,
+        "periods": { "first": "", "second": "" },
+        "venue": { "id": 495, "name": "Villa Park", "city": "Birmingham" },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 28"
+      },
+      "teams": {
+        "home": {
+          "id": 66,
+          "name": "Aston Villa",
+          "logo": "https://media-4.api-sports.io/football/teams/66.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1035459,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-03-17T00:00:00Z",
+        "timestamp": 1710601200,
+        "periods": { "first": "", "second": "" },
+        "venue": { "id": 535, "name": "Craven Cottage", "city": "London" },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 29"
+      },
+      "teams": {
+        "home": {
+          "id": 36,
+          "name": "Fulham",
+          "logo": "https://media-4.api-sports.io/football/teams/36.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1035473,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-03-30T23:00:00Z",
+        "timestamp": 1711807200,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 593,
+          "name": "Tottenham Hotspur Stadium",
+          "city": "London"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 30"
+      },
+      "teams": {
+        "home": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 1359,
+          "name": "Luton",
+          "logo": "https://media-4.api-sports.io/football/teams/1359.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1035479,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-04-03T03:45:00Z",
+        "timestamp": 1712083500,
+        "periods": { "first": "", "second": "" },
+        "venue": { "id": 598, "name": "London Stadium", "city": "London" },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 31"
+      },
+      "teams": {
+        "home": {
+          "id": 48,
+          "name": "West Ham",
+          "logo": "https://media-4.api-sports.io/football/teams/48.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1035492,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-04-06T23:00:00Z",
+        "timestamp": 1712412000,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 593,
+          "name": "Tottenham Hotspur Stadium",
+          "city": "London"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 32"
+      },
+      "teams": {
+        "home": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 65,
+          "name": "Nottingham Forest",
+          "logo": "https://media-4.api-sports.io/football/teams/65.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1035501,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-04-13T23:00:00Z",
+        "timestamp": 1713016800,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 562,
+          "name": "St. James Park",
+          "city": "Newcastle upon Tyne"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 33"
+      },
+      "teams": {
+        "home": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media-4.api-sports.io/football/teams/34.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1035512,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-04-20T23:00:00Z",
+        "timestamp": 1713621600,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 593,
+          "name": "Tottenham Hotspur Stadium",
+          "city": "London"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 34"
+      },
+      "teams": {
+        "home": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 50,
+          "name": "Manchester City",
+          "logo": "https://media-4.api-sports.io/football/teams/50.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1035521,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-04-27T23:00:00Z",
+        "timestamp": 1714226400,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 593,
+          "name": "Tottenham Hotspur Stadium",
+          "city": "London"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 35"
+      },
+      "teams": {
+        "home": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 42,
+          "name": "Arsenal",
+          "logo": "https://media-4.api-sports.io/football/teams/42.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1035530,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-05-04T23:00:00Z",
+        "timestamp": 1714831200,
+        "periods": { "first": "", "second": "" },
+        "venue": { "id": 550, "name": "Anfield", "city": "Liverpool" },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 36"
+      },
+      "teams": {
+        "home": {
+          "id": 40,
+          "name": "Liverpool",
+          "logo": "https://media-4.api-sports.io/football/teams/40.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1035541,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-05-11T23:00:00Z",
+        "timestamp": 1715436000,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 593,
+          "name": "Tottenham Hotspur Stadium",
+          "city": "London"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 37"
+      },
+      "teams": {
+        "home": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 44,
+          "name": "Burnley",
+          "logo": "https://media-4.api-sports.io/football/teams/44.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1035553,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-05-20T00:00:00Z",
+        "timestamp": 1716130800,
+        "periods": { "first": "", "second": "" },
+        "venue": { "id": 581, "name": "Bramall Lane", "city": "Sheffield" },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media-4.api-sports.io/football/leagues/39.png",
+        "flag": "https://media-4.api-sports.io/flags/gb.svg",
+        "season": 2023,
+        "round": "Regular Season - 38"
+      },
+      "teams": {
+        "home": {
+          "id": 62,
+          "name": "Sheffield Utd",
+          "logo": "https://media-4.api-sports.io/football/teams/62.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 47,
+          "name": "Tottenham",
+          "logo": "https://media-4.api-sports.io/football/teams/47.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    }
+  ]
+}

@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/ical")
 def get_ical():
-    response = make_response(ical.get_icalendar().to_ical())
+    response = make_response(ical.get_tot().to_ical())
     response.headers["Content-Disposition"] = "attachment; filename=calendar.ics"
     return response
 

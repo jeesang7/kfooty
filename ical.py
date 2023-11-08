@@ -4,6 +4,48 @@ from pytz import timezone
 import json
 
 
+TOT = "fixtures_tot.json"
+PSG = "fixtures_psg.json"
+
+
+class ICal:
+    def __init__(self):
+        self.cal = Calendar()
+
+    def _add_header(self, name="kfooty"):
+        self.cal.add("prodid", "-//kfooty//")
+        self.cal.add("version", "2.0")
+        self.cal.add("X-WR-CALNAME", name)
+
+    def _add_event_fixture(self, fixture_json=TOT):
+        fixtures = {}
+        # fmt: off
+        icon = "⚽️🏴󠁧󠁢󠁥󠁮󠁧󠁿" if fixture_json == TOT else "⚽️🇫🇷"; # TOT or PSG
+        # fmt: on
+        with open(fixture_json) as f:
+            fixtures = json.load(f)
+
+        for fixture in fixtures["response"]:
+            date = fixture["fixture"]["date"]
+            home = fixture["teams"]["home"]["name"]
+            away = fixture["teams"]["away"]["name"]
+            # print(date, home, away)
+
+            event = Event()
+            dt = datetime.strptime(date, "%Y-%m-%dT%H:%M:%SZ")
+            event.add("summary", icon + home + " v " + away)
+            event.add("dtstart", dt)
+            event.add("dtend", dt + timedelta(hours=2))
+            event.add("dtstamp", datetime.now(timezone("Asia/Seoul")))
+            self.cal.add_component(event)
+
+    def get_calendar(self):
+        self._add_header()
+        self._add_event_fixture()
+        self._add_event_fixture(PSG)
+        return self.cal
+
+
 def get_icalendar():
     cal = Calendar()
     cal.add("prodid", "-//kfooty//")

@@ -1,0 +1,1269 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "to": "2024-07-31",
+    "from": "2023-11-08",
+    "season": "2023",
+    "timezone": "Asia/Seoul",
+    "team": "85"
+  },
+  "errors": [],
+  "results": 27,
+  "paging": { "current": 1, "total": 1 },
+  "response": [
+    {
+      "fixture": {
+        "id": 1029862,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-01-03T09:00:00Z",
+        "timestamp": 1704240000,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 1551,
+          "name": "Rajamangala National Stadium",
+          "city": "Bangkok"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": ""
+        }
+      },
+      "league": {
+        "id": 526,
+        "name": "Trophée des Champions",
+        "country": "France",
+        "logo": "https://media-4.api-sports.io/football/leagues/526.png",
+        "flag": "https://media-4.api-sports.io/flags/fr.svg",
+        "season": 2023,
+        "round": "Final"
+      },
+      "teams": {
+        "home": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 96,
+          "name": "Toulouse",
+          "logo": "https://media-4.api-sports.io/football/teams/96.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1044983,
+        "referee": "W. Delajod",
+        "timezone": "Asia/Seoul",
+        "date": "2023-11-12T01:00:00Z",
+        "timestamp": 1699718400,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 674,
+          "name": "Stade Auguste-Delaune II",
+          "city": "Reims"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media-4.api-sports.io/football/leagues/61.png",
+        "flag": "https://media-4.api-sports.io/flags/fr.svg",
+        "season": 2023,
+        "round": "Regular Season - 12"
+      },
+      "teams": {
+        "home": {
+          "id": 93,
+          "name": "Reims",
+          "logo": "https://media-4.api-sports.io/football/teams/93.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1044989,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2023-11-25T05:00:00Z",
+        "timestamp": 1700856000,
+        "periods": { "first": "", "second": "" },
+        "venue": { "id": 671, "name": "Parc des Princes", "city": "Paris" },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media-4.api-sports.io/football/leagues/61.png",
+        "flag": "https://media-4.api-sports.io/flags/fr.svg",
+        "season": 2023,
+        "round": "Regular Season - 13"
+      },
+      "teams": {
+        "home": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 91,
+          "name": "Monaco",
+          "logo": "https://media-4.api-sports.io/football/teams/91.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1045005,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2023-12-03T21:00:00Z",
+        "timestamp": 1701604800,
+        "periods": { "first": "", "second": "" },
+        "venue": { "id": 652, "name": "Stade Océane", "city": "Le Havre" },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media-4.api-sports.io/football/leagues/61.png",
+        "flag": "https://media-4.api-sports.io/flags/fr.svg",
+        "season": 2023,
+        "round": "Regular Season - 14"
+      },
+      "teams": {
+        "home": {
+          "id": 111,
+          "name": "LE Havre",
+          "logo": "https://media-4.api-sports.io/football/teams/111.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1045007,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2023-12-10T09:00:00Z",
+        "timestamp": 1702166400,
+        "periods": { "first": "", "second": "" },
+        "venue": { "id": 671, "name": "Parc des Princes", "city": "Paris" },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": ""
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media-4.api-sports.io/football/leagues/61.png",
+        "flag": "https://media-4.api-sports.io/flags/fr.svg",
+        "season": 2023,
+        "round": "Regular Season - 15"
+      },
+      "teams": {
+        "home": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 83,
+          "name": "Nantes",
+          "logo": "https://media-4.api-sports.io/football/teams/83.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1045020,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2023-12-17T09:00:00Z",
+        "timestamp": 1702771200,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 19207,
+          "name": "Decathlon Arena – Stade Pierre-Mauroy",
+          "city": "Villeneuve d Ascq"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": ""
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media-4.api-sports.io/football/leagues/61.png",
+        "flag": "https://media-4.api-sports.io/flags/fr.svg",
+        "season": 2023,
+        "round": "Regular Season - 16"
+      },
+      "teams": {
+        "home": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media-4.api-sports.io/football/teams/79.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1045025,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2023-12-21T05:00:00Z",
+        "timestamp": 1703102400,
+        "periods": { "first": "", "second": "" },
+        "venue": { "id": 671, "name": "Parc des Princes", "city": "Paris" },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media-4.api-sports.io/football/leagues/61.png",
+        "flag": "https://media-4.api-sports.io/flags/fr.svg",
+        "season": 2023,
+        "round": "Regular Season - 17"
+      },
+      "teams": {
+        "home": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 112,
+          "name": "Metz",
+          "logo": "https://media-4.api-sports.io/football/teams/112.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1045042,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-01-14T09:00:00Z",
+        "timestamp": 1705190400,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 654,
+          "name": "Stade Bollaert-Delelis",
+          "city": "Lens"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": ""
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media-4.api-sports.io/football/leagues/61.png",
+        "flag": "https://media-4.api-sports.io/flags/fr.svg",
+        "season": 2023,
+        "round": "Regular Season - 18"
+      },
+      "teams": {
+        "home": {
+          "id": 116,
+          "name": "Lens",
+          "logo": "https://media-4.api-sports.io/football/teams/116.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1045043,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-01-28T09:00:00Z",
+        "timestamp": 1706400000,
+        "periods": { "first": "", "second": "" },
+        "venue": { "id": 671, "name": "Parc des Princes", "city": "Paris" },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": ""
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media-4.api-sports.io/football/leagues/61.png",
+        "flag": "https://media-4.api-sports.io/flags/fr.svg",
+        "season": 2023,
+        "round": "Regular Season - 19"
+      },
+      "teams": {
+        "home": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 106,
+          "name": "Stade Brestois 29",
+          "logo": "https://media-4.api-sports.io/football/teams/106.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1045052,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-02-04T09:00:00Z",
+        "timestamp": 1707004800,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 681,
+          "name": "Stade de la Meinau",
+          "city": "Strasbourg"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": ""
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media-4.api-sports.io/football/leagues/61.png",
+        "flag": "https://media-4.api-sports.io/flags/fr.svg",
+        "season": 2023,
+        "round": "Regular Season - 20"
+      },
+      "teams": {
+        "home": {
+          "id": 95,
+          "name": "Strasbourg",
+          "logo": "https://media-4.api-sports.io/football/teams/95.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1045061,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-02-11T09:00:00Z",
+        "timestamp": 1707609600,
+        "periods": { "first": "", "second": "" },
+        "venue": { "id": 671, "name": "Parc des Princes", "city": "Paris" },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": ""
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media-4.api-sports.io/football/leagues/61.png",
+        "flag": "https://media-4.api-sports.io/flags/fr.svg",
+        "season": 2023,
+        "round": "Regular Season - 21"
+      },
+      "teams": {
+        "home": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 79,
+          "name": "Lille",
+          "logo": "https://media-4.api-sports.io/football/teams/79.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1045076,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-02-18T09:00:00Z",
+        "timestamp": 1708214400,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 662,
+          "name": "Stade de la Beaujoire - Louis Fonteneau",
+          "city": "Nantes"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": ""
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media-4.api-sports.io/football/leagues/61.png",
+        "flag": "https://media-4.api-sports.io/flags/fr.svg",
+        "season": 2023,
+        "round": "Regular Season - 22"
+      },
+      "teams": {
+        "home": {
+          "id": 83,
+          "name": "Nantes",
+          "logo": "https://media-4.api-sports.io/football/teams/83.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1045079,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-02-25T09:00:00Z",
+        "timestamp": 1708819200,
+        "periods": { "first": "", "second": "" },
+        "venue": { "id": 671, "name": "Parc des Princes", "city": "Paris" },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": ""
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media-4.api-sports.io/football/leagues/61.png",
+        "flag": "https://media-4.api-sports.io/flags/fr.svg",
+        "season": 2023,
+        "round": "Regular Season - 23"
+      },
+      "teams": {
+        "home": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 94,
+          "name": "Rennes",
+          "logo": "https://media-4.api-sports.io/football/teams/94.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1045090,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-03-03T09:00:00Z",
+        "timestamp": 1709424000,
+        "periods": { "first": "", "second": "" },
+        "venue": { "id": 659, "name": "Stade Louis II", "city": "Monaco" },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": ""
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media-4.api-sports.io/football/leagues/61.png",
+        "flag": "https://media-4.api-sports.io/flags/fr.svg",
+        "season": 2023,
+        "round": "Regular Season - 24"
+      },
+      "teams": {
+        "home": {
+          "id": 91,
+          "name": "Monaco",
+          "logo": "https://media-4.api-sports.io/football/teams/91.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1045097,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-03-10T09:00:00Z",
+        "timestamp": 1710028800,
+        "periods": { "first": "", "second": "" },
+        "venue": { "id": 671, "name": "Parc des Princes", "city": "Paris" },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": ""
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media-4.api-sports.io/football/leagues/61.png",
+        "flag": "https://media-4.api-sports.io/flags/fr.svg",
+        "season": 2023,
+        "round": "Regular Season - 25"
+      },
+      "teams": {
+        "home": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 93,
+          "name": "Reims",
+          "logo": "https://media-4.api-sports.io/football/teams/93.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1045113,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-03-17T09:00:00Z",
+        "timestamp": 1710633600,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 660,
+          "name": "Stade de la Mosson",
+          "city": "Montpellier"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": ""
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media-4.api-sports.io/football/leagues/61.png",
+        "flag": "https://media-4.api-sports.io/flags/fr.svg",
+        "season": 2023,
+        "round": "Regular Season - 26"
+      },
+      "teams": {
+        "home": {
+          "id": 82,
+          "name": "Montpellier",
+          "logo": "https://media-4.api-sports.io/football/teams/82.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1045116,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-03-31T09:00:00Z",
+        "timestamp": 1711843200,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 12678,
+          "name": "Stade Orange Vélodrome",
+          "city": "Marseille"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": ""
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media-4.api-sports.io/football/leagues/61.png",
+        "flag": "https://media-4.api-sports.io/flags/fr.svg",
+        "season": 2023,
+        "round": "Regular Season - 27"
+      },
+      "teams": {
+        "home": {
+          "id": 81,
+          "name": "Marseille",
+          "logo": "https://media-4.api-sports.io/football/teams/81.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1045124,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-04-07T09:00:00Z",
+        "timestamp": 1712448000,
+        "periods": { "first": "", "second": "" },
+        "venue": { "id": 671, "name": "Parc des Princes", "city": "Paris" },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": ""
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media-4.api-sports.io/football/leagues/61.png",
+        "flag": "https://media-4.api-sports.io/flags/fr.svg",
+        "season": 2023,
+        "round": "Regular Season - 28"
+      },
+      "teams": {
+        "home": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 99,
+          "name": "Clermont Foot",
+          "logo": "https://media-4.api-sports.io/football/teams/99.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1045136,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-04-14T09:00:00Z",
+        "timestamp": 1713052800,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 656,
+          "name": "Stade Yves Allainmat - Le Moustoir",
+          "city": "Lorient"
+        },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": ""
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media-4.api-sports.io/football/leagues/61.png",
+        "flag": "https://media-4.api-sports.io/flags/fr.svg",
+        "season": 2023,
+        "round": "Regular Season - 29"
+      },
+      "teams": {
+        "home": {
+          "id": 97,
+          "name": "Lorient",
+          "logo": "https://media-4.api-sports.io/football/teams/97.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1045142,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-04-21T09:00:00Z",
+        "timestamp": 1713657600,
+        "periods": { "first": "", "second": "" },
+        "venue": { "id": 671, "name": "Parc des Princes", "city": "Paris" },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": ""
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media-4.api-sports.io/football/leagues/61.png",
+        "flag": "https://media-4.api-sports.io/flags/fr.svg",
+        "season": 2023,
+        "round": "Regular Season - 30"
+      },
+      "teams": {
+        "home": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 80,
+          "name": "Lyon",
+          "logo": "https://media-4.api-sports.io/football/teams/80.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1045151,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-04-28T09:00:00Z",
+        "timestamp": 1714262400,
+        "periods": { "first": "", "second": "" },
+        "venue": { "id": 671, "name": "Parc des Princes", "city": "Paris" },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": ""
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media-4.api-sports.io/football/leagues/61.png",
+        "flag": "https://media-4.api-sports.io/flags/fr.svg",
+        "season": 2023,
+        "round": "Regular Season - 31"
+      },
+      "teams": {
+        "home": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 111,
+          "name": "LE Havre",
+          "logo": "https://media-4.api-sports.io/football/teams/111.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1045163,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-05-03T09:00:00Z",
+        "timestamp": 1714694400,
+        "periods": { "first": "", "second": "" },
+        "venue": { "id": 663, "name": "Allianz Riviera", "city": "Nice" },
+        "status": {
+          "long": "Time to be defined",
+          "short": "TBD",
+          "elapsed": ""
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media-4.api-sports.io/football/leagues/61.png",
+        "flag": "https://media-4.api-sports.io/flags/fr.svg",
+        "season": 2023,
+        "round": "Regular Season - 32"
+      },
+      "teams": {
+        "home": {
+          "id": 84,
+          "name": "Nice",
+          "logo": "https://media-4.api-sports.io/football/teams/84.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1045169,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-05-12T04:00:00Z",
+        "timestamp": 1715454000,
+        "periods": { "first": "", "second": "" },
+        "venue": { "id": 671, "name": "Parc des Princes", "city": "Paris" },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media-4.api-sports.io/football/leagues/61.png",
+        "flag": "https://media-4.api-sports.io/flags/fr.svg",
+        "season": 2023,
+        "round": "Regular Season - 33"
+      },
+      "teams": {
+        "home": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 96,
+          "name": "Toulouse",
+          "logo": "https://media-4.api-sports.io/football/teams/96.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1045186,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2024-05-19T04:00:00Z",
+        "timestamp": 1716058800,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 658,
+          "name": "Stade Saint-Symphorien",
+          "city": "Longeville-lès-Metz"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media-4.api-sports.io/football/leagues/61.png",
+        "flag": "https://media-4.api-sports.io/flags/fr.svg",
+        "season": 2023,
+        "round": "Regular Season - 34"
+      },
+      "teams": {
+        "home": {
+          "id": 112,
+          "name": "Metz",
+          "logo": "https://media-4.api-sports.io/football/teams/112.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1126196,
+        "referee": "Jesus Gil Manzano, Spain",
+        "timezone": "Asia/Seoul",
+        "date": "2023-11-08T05:00:00Z",
+        "timestamp": 1699387200,
+        "periods": { "first": 1699387200, "second": 1699390800 },
+        "venue": {
+          "id": 907,
+          "name": "Stadio Giuseppe Meazza",
+          "city": "Milano"
+        },
+        "status": { "long": "Match Finished", "short": "FT", "elapsed": 90 }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media-4.api-sports.io/football/leagues/2.png",
+        "flag": "",
+        "season": 2023,
+        "round": "Group F - 4"
+      },
+      "teams": {
+        "home": {
+          "id": 489,
+          "name": "AC Milan",
+          "logo": "https://media-4.api-sports.io/football/teams/489.png",
+          "winner": "True"
+        },
+        "away": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": "False"
+        }
+      },
+      "goals": { "home": 2, "away": 1 },
+      "score": {
+        "halftime": { "home": 1, "away": 1 },
+        "fulltime": { "home": 2, "away": 1 },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1126211,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2023-11-29T05:00:00Z",
+        "timestamp": 1701201600,
+        "periods": { "first": "", "second": "" },
+        "venue": { "id": 671, "name": "Parc des Princes", "city": "Paris" },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media-4.api-sports.io/football/leagues/2.png",
+        "flag": "",
+        "season": 2023,
+        "round": "Group F - 5"
+      },
+      "teams": {
+        "home": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 34,
+          "name": "Newcastle",
+          "logo": "https://media-4.api-sports.io/football/teams/34.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1126236,
+        "referee": "",
+        "timezone": "Asia/Seoul",
+        "date": "2023-12-14T05:00:00Z",
+        "timestamp": 1702497600,
+        "periods": { "first": "", "second": "" },
+        "venue": {
+          "id": 19381,
+          "name": "SIGNAL IDUNA PARK",
+          "city": "Dortmund"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
+      },
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League",
+        "country": "World",
+        "logo": "https://media-4.api-sports.io/football/leagues/2.png",
+        "flag": "",
+        "season": 2023,
+        "round": "Group F - 6"
+      },
+      "teams": {
+        "home": {
+          "id": 165,
+          "name": "Borussia Dortmund",
+          "logo": "https://media-4.api-sports.io/football/teams/165.png",
+          "winner": ""
+        },
+        "away": {
+          "id": 85,
+          "name": "Paris Saint Germain",
+          "logo": "https://media-4.api-sports.io/football/teams/85.png",
+          "winner": ""
+        }
+      },
+      "goals": { "home": "", "away": "" },
+      "score": {
+        "halftime": { "home": "", "away": "" },
+        "fulltime": { "home": "", "away": "" },
+        "extratime": { "home": "", "away": "" },
+        "penalty": { "home": "", "away": "" }
+      }
+    }
+  ]
+}

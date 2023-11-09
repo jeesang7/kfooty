@@ -45,5 +45,5 @@ jobs:
             docker image prune -f
             docker pull ghcr.io/${{ github.repository }}:latest
             ls
-            cd Project/kfooty && docker-compose up -d
+            cd Project/kfooty && docker compose up -d
             docker ps

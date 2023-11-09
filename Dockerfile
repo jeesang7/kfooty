@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 COPY *.py .
 COPY *.json .
 
-CMD ["python", "./main.py"]
+CMD ["python", "gunicorn", "--workers", "4", "--bind", "0.0.0.0:5000", "main:app"]

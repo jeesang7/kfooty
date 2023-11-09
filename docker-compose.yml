@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  kfooty:
+    image: ghcr.io/jeesang7/kfooty:latest
+    container_name: kfooty
+    restart: always
+    ports:
+      - 5000:5000

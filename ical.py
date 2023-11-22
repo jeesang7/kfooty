@@ -2,6 +2,7 @@ from icalendar import Calendar, Event
 from datetime import datetime, timedelta
 from pytz import timezone
 import json
+from pathlib import Path
 
 
 TOT = "fixtures_tot.json"
@@ -39,11 +40,24 @@ class ICal:
             event.add("dtstamp", datetime.now(timezone("Asia/Seoul")))
             self.cal.add_component(event)
 
-    def get_calendar(self):
+    def get_calendar(self, ics="calendar.ics"):
+        if Path(ics).exists():
+            with open(ics, "r") as f:
+                cal = f.read()
+            return cal
+
         self._add_header()
         self._add_event_fixture()
         self._add_event_fixture(PSG)
-        return self.cal
+        return self.cal.to_ical()
+
+    def create_calendar(self):
+        self._add_header()
+        self._add_event_fixture()
+        self._add_event_fixture(PSG)
+
+        with open("calendar.ics", "wb") as f:
+            f.write(self.cal.to_ical())
 
 
 def get_icalendar():

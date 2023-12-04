@@ -32,7 +32,7 @@
       },
       "league": {
         "id": 526,
-        "name": "Trophée des Champions",
+        "name": "Troph\u00e9e des Champions",
         "country": "France",
         "logo": "https://media-4.api-sports.io/football/leagues/526.png",
         "flag": "https://media-4.api-sports.io/flags/fr.svg",
@@ -112,7 +112,7 @@
         "id": 1044989,
         "referee": "",
         "timezone": "Asia/Seoul",
-        "date": "2023-11-25T05:00:00Z",
+        "date": "2023-11-25T05:00:00+09:00",
         "timestamp": 1700856000,
         "periods": { "first": "", "second": "" },
         "venue": { "id": 671, "name": "Parc des Princes", "city": "Paris" },
@@ -157,7 +157,7 @@
         "date": "2023-12-03T21:00:00Z",
         "timestamp": 1701604800,
         "periods": { "first": "", "second": "" },
-        "venue": { "id": 652, "name": "Stade Océane", "city": "Le Havre" },
+        "venue": { "id": 652, "name": "Stade Oc\u00e9ane", "city": "Le Havre" },
         "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
       },
       "league": {
@@ -196,8 +196,8 @@
         "id": 1045007,
         "referee": "",
         "timezone": "Asia/Seoul",
-        "date": "2023-12-10T09:00:00Z",
-        "timestamp": 1702166400,
+        "date": "2023-12-10T05:00:00Z",
+        "timestamp": 1702152000,
         "periods": { "first": "", "second": "" },
         "venue": { "id": 671, "name": "Parc des Princes", "city": "Paris" },
         "status": {
@@ -242,12 +242,12 @@
         "id": 1045020,
         "referee": "",
         "timezone": "Asia/Seoul",
-        "date": "2023-12-17T09:00:00Z",
-        "timestamp": 1702771200,
+        "date": "2023-12-18T04:45:00Z",
+        "timestamp": 1702842300,
         "periods": { "first": "", "second": "" },
         "venue": {
           "id": 19207,
-          "name": "Decathlon Arena – Stade Pierre-Mauroy",
+          "name": "Decathlon Arena \u2013 Stade Pierre-Mauroy",
           "city": "Villeneuve d Ascq"
         },
         "status": {
@@ -769,7 +769,7 @@
         "periods": { "first": "", "second": "" },
         "venue": {
           "id": 12678,
-          "name": "Stade Orange Vélodrome",
+          "name": "Stade Orange V\u00e9lodrome",
           "city": "Marseille"
         },
         "status": {
@@ -1096,7 +1096,7 @@
         "venue": {
           "id": 658,
           "name": "Stade Saint-Symphorien",
-          "city": "Longeville-lès-Metz"
+          "city": "Longeville-l\u00e8s-Metz"
         },
         "status": { "long": "Not Started", "short": "NS", "elapsed": "" }
       },

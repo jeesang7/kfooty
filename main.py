@@ -1,7 +1,21 @@
 from flask import Flask, make_response
 from ical import ICal
+from scheduler import Scheduler
 
-app = Flask(__name__)
+
+def create_app():
+    ical = ICal()
+    ical.create_calendar()
+
+    scheduler = Scheduler()
+    scheduler.start()
+
+    app = Flask(__name__)
+
+    return app
+
+
+app = create_app()
 
 
 @app.route("/ical")
@@ -14,4 +28,8 @@ def get_ical():
 if __name__ == "__main__":
     ical = ICal()
     ical.create_calendar()
+
+    scheduler = Scheduler()
+    scheduler.start()
+
     app.run(debug=True)

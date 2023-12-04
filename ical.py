@@ -3,10 +3,11 @@ from datetime import datetime, timedelta
 from pytz import timezone
 import json
 from pathlib import Path
+import logging
 
 
-TOT = "fixtures_tot.json"
-PSG = "fixtures_psg.json"
+TOT = "fixtures/47.json"
+PSG = "fixtures/85.json"
 
 
 class ICal:
@@ -58,6 +59,7 @@ class ICal:
 
         with open("calendar.ics", "wb") as f:
             f.write(self.cal.to_ical())
+            logging.debug("created calendar.ics")
 
 
 def get_icalendar():

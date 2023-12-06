@@ -1,7 +1,6 @@
 from apscheduler.schedulers.background import BackgroundScheduler
 import requests
 from datetime import datetime, timedelta
-from dotenv import load_dotenv
 import os
 import json
 import logging
@@ -12,9 +11,6 @@ PSG = "85"
 
 
 class Scheduler:
-    def __init__(self):
-        load_dotenv()
-
     def fetch_fixtures(self, team_id=TOT):
         self.fetched_fixtures = {}
         today = datetime.now().date()

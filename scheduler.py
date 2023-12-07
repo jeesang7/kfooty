@@ -8,6 +8,7 @@ from ical import ICal
 
 TOT = "47"
 PSG = "85"
+BAY = "157"
 
 
 class Scheduler:
@@ -75,6 +76,8 @@ class Scheduler:
         self.update_fixtures()
         self.fetch_fixtures(PSG)
         self.update_fixtures(PSG)
+        self.fetch_fixtures(BAY)
+        self.update_fixtures(BAY)
         ical = ICal()
         ical.create_calendar()
 

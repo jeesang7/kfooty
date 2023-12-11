@@ -82,10 +82,18 @@ class Scheduler:
         ical.create_calendar()
 
     def start(self):
+        h = os.environ.get("CRON_HOUR", "17")
+        m = os.environ.get("CRON_MINUTE", "10")
+
         scheduler = BackgroundScheduler(timezone="Asia/Seoul")
-        scheduler.add_job(self.check_fixtures, "cron", hour=23, minute=36)
+        scheduler.add_job(
+            self.check_fixtures,
+            "cron",
+            hour=h,
+            minute=m,
+        )
         scheduler.start()
-        logging.debug("start BackgroundScheduler every 23:36")
+        logging.debug(f"start BackgroundScheduler every {h}:{m}")
 
 
 if __name__ == "__main__":

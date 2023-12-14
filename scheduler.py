@@ -6,13 +6,14 @@ import json
 import logging
 from ical import ICal
 
-TOT = "47"
-PSG = "85"
-BAY = "157"
-
 
 class Scheduler:
-    def fetch_fixtures(self, team_id=TOT):
+    def __init__(self, teams):
+        self.teams = teams
+
+    def fetch_fixtures(self, team="TOT"):
+        team_id = self.teams[team]["id"]
+
         self.fetched_fixtures = {}
         today = datetime.now().date()
         url = "https://api-football-v1.p.rapidapi.com/v3/fixtures"
@@ -40,9 +41,10 @@ class Scheduler:
             json.dump(response.json(), f)
         """
 
-    def update_fixtures(self, team_id=TOT):
+    def update_fixtures(self, team="TOT"):
+        team_id = self.teams[team]["id"]
         logging.debug(f"update_fixtrue start: {team_id}")
-        fixture_json = "fixtures/" + team_id + ".json"
+        fixture_json = f"fixtures/{team_id}.json"
         with open(fixture_json) as f:
             fixtures = json.load(f)
 
@@ -72,13 +74,11 @@ class Scheduler:
             logging.debug("no update")
 
     def check_fixtures(self):
-        self.fetch_fixtures()
-        self.update_fixtures()
-        self.fetch_fixtures(PSG)
-        self.update_fixtures(PSG)
-        self.fetch_fixtures(BAY)
-        self.update_fixtures(BAY)
-        ical = ICal()
+        for team in self.teams:
+            self.fetch_fixtures(team)
+            self.update_fixtures(team)
+
+        ical = ICal(self.teams)
         ical.create_calendar()
 
     def start(self):
@@ -97,7 +97,9 @@ class Scheduler:
 
 
 if __name__ == "__main__":
-    sched = Scheduler()
+    with open("team.json") as f:
+        teams = json.load(f)
+    sched = Scheduler(teams)
     sched.start()
 
     import time

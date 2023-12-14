@@ -6,30 +6,22 @@ from pathlib import Path
 import logging
 
 
-TOT = "fixtures/47.json"
-PSG = "fixtures/85.json"
-BAY = "fixtures/157.json"
-
-
 class ICal:
-    def __init__(self):
+    def __init__(self, teams):
         self.cal = Calendar()
+        self.teams = teams
 
     def _add_header(self, name="kfooty"):
         self.cal.add("prodid", "-//kfooty//")
         self.cal.add("version", "2.0")
         self.cal.add("X-WR-CALNAME", name)
 
-    def _add_event_fixture(self, fixture_json=TOT):
+    def _add_event_fixture(self, team="TOT"):
         fixtures = {}
 
-        icon = ""
-        if fixture_json == TOT:
-            icon = "⚽️🏴󠁧󠁢󠁥󠁮󠁧󠁿"
-        elif fixture_json == PSG:
-            icon = "⚽️🇫🇷"
-        elif fixture_json == BAY:
-            icon = "⚽️🇩🇪"
+        team_id = self.teams[team]["id"]
+        icon = self.teams[team]["icon"]
+        fixture_json = f"fixtures/{team_id}.json"
 
         with open(fixture_json) as f:
             fixtures = json.load(f)
@@ -55,16 +47,14 @@ class ICal:
             return cal
 
         self._add_header()
-        self._add_event_fixture()
-        self._add_event_fixture(PSG)
-        self._add_event_fixture(BAY)
+        for team in self.teams:
+            self._add_event_fixture(team)
         return self.cal.to_ical()
 
     def create_calendar(self):
         self._add_header()
-        self._add_event_fixture()
-        self._add_event_fixture(PSG)
-        self._add_event_fixture(BAY)
+        for team in self.teams:
+            self._add_event_fixture(team)
 
         with open("calendar.ics", "wb") as f:
             f.write(self.cal.to_ical())
@@ -72,5 +62,7 @@ class ICal:
 
 
 if __name__ == "__main__":
-    ical = ICal()
+    with open("team.json") as f:
+        teams = json.load(f)
+    ical = ICal(teams)
     ical.create_calendar()

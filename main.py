@@ -2,15 +2,18 @@ from flask import Flask, make_response
 from ical import ICal
 from scheduler import Scheduler
 import logging
+import json
 
 logging.basicConfig(level=logging.DEBUG)
 
 
 def create_app():
-    ical = ICal()
+    with open("team.json") as f:
+        teams = json.load(f)
+    ical = ICal(teams)
     ical.create_calendar()
 
-    scheduler = Scheduler()
+    scheduler = Scheduler(teams)
     scheduler.start()
 
     app = Flask(__name__)
@@ -23,16 +26,21 @@ app = create_app()
 
 @app.route("/ical")
 def get_ical():
-    response = make_response(ICal().get_calendar())
+    with open("team.json") as f:
+        teams = json.load(f)
+    ical = ICal(teams)
+    response = make_response(ical.get_calendar())
     response.headers["Content-Disposition"] = "attachment; filename=calendar.ics"
     return response
 
 
 if __name__ == "__main__":
-    ical = ICal()
+    with open("team.json") as f:
+        teams = json.load(f)
+    ical = ICal(teams)
     ical.create_calendar()
 
-    scheduler = Scheduler()
+    scheduler = Scheduler(teams)
     scheduler.start()
 
     app.run(debug=True)

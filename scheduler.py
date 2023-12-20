@@ -80,6 +80,7 @@ class Scheduler:
 
         ical = ICal(self.teams)
         ical.create_calendar()
+        ical.deploy_calendar()
 
     def start(self):
         h = os.environ.get("CRON_HOUR", "17")

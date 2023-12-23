@@ -14,6 +14,7 @@ def create_app():
     ical.create_calendar()
 
     scheduler = Scheduler(teams)
+    scheduler.check_fixtures()
     scheduler.start()
 
     app = Flask(__name__)

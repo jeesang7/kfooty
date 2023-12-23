@@ -1,0 +1,149 @@
+{
+  "get": "fixtures",
+  "parameters": {
+    "to": "2024-12-21",
+    "from": "2023-12-23",
+    "season": "2023",
+    "timezone": "Asia/Seoul",
+    "team": "17"
+  },
+  "errors": [],
+  "results": 3,
+  "paging": { "current": 1, "total": 1 },
+  "response": [
+    {
+      "fixture": {
+        "id": 1034499,
+        "referee": null,
+        "timezone": "Asia/Seoul",
+        "date": "2024-01-15T20:30:00Z",
+        "timestamp": 1705318200,
+        "periods": { "first": null, "second": null },
+        "venue": {
+          "id": null,
+          "name": "Jassim Bin Hamad Stadium",
+          "city": "Doha"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+      },
+      "league": {
+        "id": 7,
+        "name": "Asian Cup",
+        "country": "World",
+        "logo": "https://media-4.api-sports.io/football/leagues/7.png",
+        "flag": null,
+        "season": 2023,
+        "round": "Group Stage - 1"
+      },
+      "teams": {
+        "home": {
+          "id": 17,
+          "name": "South Korea",
+          "logo": "https://media-4.api-sports.io/football/teams/17.png",
+          "winner": null
+        },
+        "away": {
+          "id": 1547,
+          "name": "Bahrain",
+          "logo": "https://media-4.api-sports.io/football/teams/1547.png",
+          "winner": null
+        }
+      },
+      "goals": { "home": null, "away": null },
+      "score": {
+        "halftime": { "home": null, "away": null },
+        "fulltime": { "home": null, "away": null },
+        "extratime": { "home": null, "away": null },
+        "penalty": { "home": null, "away": null }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1034512,
+        "referee": null,
+        "timezone": "Asia/Seoul",
+        "date": "2024-01-20T20:30:00Z",
+        "timestamp": 1705750200,
+        "periods": { "first": null, "second": null },
+        "venue": { "id": null, "name": "Al Thumama Stadium", "city": "Doha" },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+      },
+      "league": {
+        "id": 7,
+        "name": "Asian Cup",
+        "country": "World",
+        "logo": "https://media-4.api-sports.io/football/leagues/7.png",
+        "flag": null,
+        "season": 2023,
+        "round": "Group Stage - 2"
+      },
+      "teams": {
+        "home": {
+          "id": 1548,
+          "name": "Jordan",
+          "logo": "https://media-4.api-sports.io/football/teams/1548.png",
+          "winner": null
+        },
+        "away": {
+          "id": 17,
+          "name": "South Korea",
+          "logo": "https://media-4.api-sports.io/football/teams/17.png",
+          "winner": null
+        }
+      },
+      "goals": { "home": null, "away": null },
+      "score": {
+        "halftime": { "home": null, "away": null },
+        "fulltime": { "home": null, "away": null },
+        "extratime": { "home": null, "away": null },
+        "penalty": { "home": null, "away": null }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1034524,
+        "referee": null,
+        "timezone": "Asia/Seoul",
+        "date": "2024-01-25T20:30:00Z",
+        "timestamp": 1706182200,
+        "periods": { "first": null, "second": null },
+        "venue": {
+          "id": null,
+          "name": "Abdullah bin Nasser bin Khalifa Stadium",
+          "city": "Doha"
+        },
+        "status": { "long": "Not Started", "short": "NS", "elapsed": null }
+      },
+      "league": {
+        "id": 7,
+        "name": "Asian Cup",
+        "country": "World",
+        "logo": "https://media-4.api-sports.io/football/leagues/7.png",
+        "flag": null,
+        "season": 2023,
+        "round": "Group Stage - 3"
+      },
+      "teams": {
+        "home": {
+          "id": 17,
+          "name": "South Korea",
+          "logo": "https://media-4.api-sports.io/football/teams/17.png",
+          "winner": null
+        },
+        "away": {
+          "id": 1538,
+          "name": "Malaysia",
+          "logo": "https://media-4.api-sports.io/football/teams/1538.png",
+          "winner": null
+        }
+      },
+      "goals": { "home": null, "away": null },
+      "score": {
+        "halftime": { "home": null, "away": null },
+        "fulltime": { "home": null, "away": null },
+        "extratime": { "home": null, "away": null },
+        "penalty": { "home": null, "away": null }
+      }
+    }
+  ]
+}

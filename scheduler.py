@@ -48,7 +48,13 @@ class Scheduler:
         with open(fixture_json) as f:
             fixtures = json.load(f)
 
+        fixture_ids = []
+        for fixture in fixtures["response"]:
+            fixture_ids.append(fixture["fixture"]["id"])
+
         on_write = False
+        fetched_fixture_ids = []
+        new_fixtures = []
         for fetched_fixture in self.fetched_fixtures["response"]:
             # logging.debug("fetched_fixture: " + str(fetched_fixture))
 
@@ -66,7 +72,18 @@ class Scheduler:
                     logging.debug(f"{team_id} - fixture updated: {i} {_id} {ts} {date}")
                     on_write = True
 
+            # find new fixture
+            fetched_fixture_ids.append(_id)
+
+            if _id not in fixture_ids:
+                fetched_fixture["fixture"]["date"] = date
+                logging.debug(f"{team_id} - fixture new: {_id} {date}")
+                new_fixtures.append(fetched_fixture)
+                on_write = True
+
         if on_write:
+            for new_fixture in new_fixtures:
+                fixtures["response"].append(new_fixture)
             with open(fixture_json, "w") as f:
                 json.dump(fixtures, f)
             logging.debug(f"overwritten done: {fixture_json}")
@@ -98,6 +115,7 @@ class Scheduler:
 
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.DEBUG)
     with open("team.json") as f:
         teams = json.load(f)
     sched = Scheduler(teams)
